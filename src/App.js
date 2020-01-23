@@ -42,6 +42,17 @@ componentDidMount(){
 
 
   render() {
+    let list = this.state.list.map((e,i)=> {
+      return(
+        <div>
+        <h1></h1>
+        <h1></h1>
+        <p></p>
+        <button>
+        Delete</button>
+        </div>
+      )
+    })
     return <div className="App"></div>;
   }
 }
